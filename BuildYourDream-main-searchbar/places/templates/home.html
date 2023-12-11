@@ -2,8 +2,10 @@
 
 <h1>Build Your Dream</h1>
 
-{% load static %}
-<link rel="stylesheet" href="{ % static 'home.css' %}">
+
+<link rel="stylesheet" href="{'home.css'}">
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="./searchbar.css">
 
 {% for i in products %}
 <div class="card" style="width: 18rem">

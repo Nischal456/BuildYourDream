@@ -10,7 +10,7 @@
     width: 100%;
     min-height: 80vh;
     padding: 5%;
-    background-image:url("/static/bg.webp");
+    background-image:url("bg.webp");
     background-position: center;
     background-size: cover;
     display: flex;
